@@ -49,7 +49,7 @@ const Services = () => {
             <Card key={index} className="border-none shadow-md hover:shadow-lg transition-shadow opacity-0 animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
               <CardContent className="p-6">
                 <div className="mb-4">{service.icon}</div>
-                <h3 className="text-xl font-bold text-effuniv-primary mb-3">{service.title}</h3>
+                <h3 className="text-xl font-bold text-effuniv-secondary mb-3">{service.title}</h3>
                 <p className="text-effuniv-dark/80">{service.description}</p>
               </CardContent>
             </Card>

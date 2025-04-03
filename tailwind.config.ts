@@ -64,11 +64,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				effuniv: {
-					primary: '#0B3D91',
-					secondary: '#4C86A8',
-					accent: '#64A6BD',
-					light: '#F5F7FA',
-					dark: '#1A2B3C'
+					primary: '#EA4335', // Updated to red from logo
+					secondary: '#4D4D4D', // Updated to dark gray from logo
+					accent: '#F37168', // Lighter version of primary
+					light: '#F8F8F8',
+					dark: '#222222' // Darker version of secondary
 				}
 			},
 			borderRadius: {

@@ -5,16 +5,19 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-effuniv-dark text-white pt-16 pb-8">
+    <footer className="bg-effuniv-secondary text-white pt-16 pb-8">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold mb-6 text-white">
-              <span className="text-white">Eff</span>
-              <span className="text-effuniv-accent">Univ</span>
+              <img 
+                src="/lovable-uploads/2d94aabb-e464-4b79-8d8c-6e379d01dea0.png" 
+                alt="EffUniv Logo" 
+                className="h-10" 
+              />
             </h3>
-            <p className="text-white/80 mb-6">
+            <p className="text-white/80 mb-6 mt-4">
               A boutique end-to-end IT Solutions and Services company helping clients usher in advanced technologies for better outcomes.
             </p>
             <div className="flex space-x-4">
@@ -125,7 +128,7 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white/80 text-sm mb-4 md:mb-0">
-              &copy; {currentYear} EffUniv. All rights reserved.
+              &copy; {currentYear} EffUniv SDN. BHD. All rights reserved.
             </p>
             <div className="flex space-x-4 text-sm text-white/70">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

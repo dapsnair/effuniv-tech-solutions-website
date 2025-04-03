@@ -16,7 +16,7 @@ const Industries = () => {
             <div className="mx-auto w-20 h-20 bg-effuniv-primary/10 rounded-full flex items-center justify-center mb-6">
               <Briefcase className="text-effuniv-primary w-10 h-10" />
             </div>
-            <h3 className="text-2xl font-bold text-effuniv-primary mb-4">Banking, Financial Services & Insurance</h3>
+            <h3 className="text-2xl font-bold text-effuniv-secondary mb-4">Banking, Financial Services & Insurance</h3>
             <p className="text-effuniv-dark/80">
               Secure and compliant technology solutions for the financial sector, including digital banking platforms, payment systems, risk management, and regulatory compliance.
             </p>
@@ -45,7 +45,7 @@ const Industries = () => {
             <div className="mx-auto w-20 h-20 bg-effuniv-primary/10 rounded-full flex items-center justify-center mb-6">
               <Database className="text-effuniv-primary w-10 h-10" />
             </div>
-            <h3 className="text-2xl font-bold text-effuniv-primary mb-4">Information Technology</h3>
+            <h3 className="text-2xl font-bold text-effuniv-secondary mb-4">Information Technology</h3>
             <p className="text-effuniv-dark/80">
               Cutting-edge solutions for IT companies, including software development, cloud infrastructure, data management, cybersecurity, and DevOps implementation.
             </p>
@@ -74,7 +74,7 @@ const Industries = () => {
             <div className="mx-auto w-20 h-20 bg-effuniv-primary/10 rounded-full flex items-center justify-center mb-6">
               <Building className="text-effuniv-primary w-10 h-10" />
             </div>
-            <h3 className="text-2xl font-bold text-effuniv-primary mb-4">Construction</h3>
+            <h3 className="text-2xl font-bold text-effuniv-secondary mb-4">Construction</h3>
             <p className="text-effuniv-dark/80">
               Technology solutions for the construction industry, including project management tools, BIM integration, resource optimization, and site management systems.
             </p>
@@ -100,7 +100,7 @@ const Industries = () => {
         </div>
 
         <div className="mt-20 text-center opacity-0 animate-fade-in animate-delay-300">
-          <p className="text-xl text-effuniv-primary/90 font-medium">
+          <p className="text-xl text-effuniv-secondary/90 font-medium">
             Our industry expertise allows us to create tailored solutions that address specific sector challenges.
           </p>
         </div>

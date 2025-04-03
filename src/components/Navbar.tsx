@@ -33,9 +33,12 @@ const Navbar = () => {
       }`}
     >
       <div className="container-custom flex items-center justify-between">
-        <a href="#" className="text-effuniv-primary font-bold text-2xl flex items-center">
-          <span className="text-effuniv-primary">Eff</span>
-          <span className="text-effuniv-secondary">Univ</span>
+        <a href="#" className="flex items-center">
+          <img 
+            src="/lovable-uploads/2d94aabb-e464-4b79-8d8c-6e379d01dea0.png" 
+            alt="EffUniv Logo" 
+            className="h-10 md:h-12" 
+          />
         </a>
 
         {/* Desktop Navigation */}

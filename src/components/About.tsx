@@ -16,7 +16,7 @@ const About = () => {
             <div className="w-16 h-16 bg-effuniv-primary/10 rounded-full flex items-center justify-center mb-6">
               <Clock className="text-effuniv-primary w-8 h-8" />
             </div>
-            <h3 className="text-xl font-bold text-effuniv-primary mb-3">Decades of Experience</h3>
+            <h3 className="text-xl font-bold text-effuniv-secondary mb-3">Decades of Experience</h3>
             <p className="text-effuniv-dark/80">
               Our team brings extensive experience from Banking, Financial Services & Insurance (BFSI), Information Technology (IT), and Construction industries.
             </p>
@@ -27,7 +27,7 @@ const About = () => {
             <div className="w-16 h-16 bg-effuniv-primary/10 rounded-full flex items-center justify-center mb-6">
               <Users className="text-effuniv-primary w-8 h-8" />
             </div>
-            <h3 className="text-xl font-bold text-effuniv-primary mb-3">Expert Leadership</h3>
+            <h3 className="text-xl font-bold text-effuniv-secondary mb-3">Expert Leadership</h3>
             <p className="text-effuniv-dark/80">
               Between our Leadership and Advisory Board, we bring together the brightest minds in technology and business strategy to solve complex challenges.
             </p>
@@ -38,7 +38,7 @@ const About = () => {
             <div className="w-16 h-16 bg-effuniv-primary/10 rounded-full flex items-center justify-center mb-6">
               <Award className="text-effuniv-primary w-8 h-8" />
             </div>
-            <h3 className="text-xl font-bold text-effuniv-primary mb-3">End-to-End Solutions</h3>
+            <h3 className="text-xl font-bold text-effuniv-secondary mb-3">End-to-End Solutions</h3>
             <p className="text-effuniv-dark/80">
               We provide comprehensive IT solutions and services designed to help your business adopt and leverage advanced technologies effectively.
             </p>

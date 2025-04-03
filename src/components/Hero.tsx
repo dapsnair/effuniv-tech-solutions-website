@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 opacity-0 animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-effuniv-primary leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-effuniv-secondary leading-tight">
               Advanced Technology Solutions for Better Outcomes
             </h1>
             <p className="text-lg md:text-xl text-effuniv-dark/80 max-w-lg">
@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
           
           <div className="relative opacity-0 animate-fade-in animate-delay-200">
-            <div className="aspect-video bg-gradient-to-tr from-effuniv-primary to-effuniv-secondary rounded-lg shadow-xl flex items-center justify-center">
+            <div className="aspect-video bg-gradient-to-tr from-effuniv-secondary to-effuniv-primary rounded-lg shadow-xl flex items-center justify-center">
               <div className="text-white text-center p-8">
                 <h3 className="text-2xl font-bold mb-4">Driving Digital Transformation</h3>
                 <p className="text-white/90">Leveraging decades of industry experience to deliver innovative IT solutions</p>
